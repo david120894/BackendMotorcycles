@@ -9,7 +9,6 @@ import lombok.Data;
 @Entity
 @Table(name="cycles")
 public class Motorcycles {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long motorCyclesId;
